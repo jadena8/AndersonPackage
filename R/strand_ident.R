@@ -49,7 +49,3 @@ strand_ident <- function(topo_file) {
   }
 }
 
-testF <- "AndersonPackage/R/query.top"
-test <- c("OOOOLpLpLpLpIIII", "OOOOOOOIIIIII", "OOLpLpLIIIpLpLpLOOO")
-
-strand_ident(testF)
