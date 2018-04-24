@@ -5,10 +5,10 @@ Version: 0.1.0
 Author: Jaden Anderson
 Maintainer: jadena@ku.edu
 Description: This package contains 4 functions as well as their unit testing files to test the Title
-    is_protein.R -> This function tests the gappiness of the sequences in a multiple sequence alignment. If the gaps are too large then the sequences are not suitable for dN/dS calculation and will fail the test.
-    same_size.R -> This function tests if the sequences in the multiple sequence alignment are the same size. This is required to generate a square matrix in order to make dN/dS calculations
-    strand_ident.R -> This function will take in a topology file for secondary structure to split up the beta barrel into it's corresponding strands. Since I'm looking at strand selection pressure, this function is critical in seperating out the sequences
-    test_calc.R -> This function tests whether or not the sequences are in FASTA format. If they are, and you have passed the other tests, then you can proceed with splitting up the strands to feed into calculation
+        is_protein.R -> This function tests the gappiness of the sequences in a multiple sequence alignment. If the gaps are too large then the sequences are not suitable for dN/dS calculation and will fail the test.
+        same_size.R -> This function tests if the sequences in the multiple sequence alignment are the same size. This is required to generate a square matrix in order to make dN/dS calculations
+        strand_ident.R -> This function will take in a topology file for secondary structure to split up the beta barrel into it's corresponding strands. Since I'm looking at strand selection pressure, this function is critical in seperating out the sequences
+        test_calc.R -> This function tests whether or not the sequences are in FASTA format. If they are, and you have passed the other tests, then you can proceed with splitting up the strands to feed into calculation
 License: Public License
 Encoding: UTF-8
 LazyData: true
