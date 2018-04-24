@@ -47,5 +47,6 @@ strand_ident <- function(topo_file) {
       }
     }
   }
+  return(strands)
 }
 
